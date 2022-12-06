@@ -18,6 +18,7 @@ function App() {
 
                 </article>
             </div>
+            <footer>created by <a href='github.com/David-Main'>David-Main</a> - devChallenges.io </footer>
         </div>
     )
 }
