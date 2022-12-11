@@ -1,66 +1,73 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Space+Mono:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Space+Mono:wght@400;700&display=swap");
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 body {
-  font-family: 'Space Mono', monospace;
+	font-family: "Space Mono", monospace;
 }
 
 img {
-  max-width: 100%;
+	max-width: 100%;
 }
-
 
 a {
-  color: inherit; 
+	color: inherit;
 }
 
-footer{ 
-  text-align: center; 
-  margin-inline: auto;
-  font-family: "Montserrat", sans-serif;
-  color: #bdbdbd;
-  }
+footer {
+	text-align: center;
+	margin-inline: auto;
+	font-family: "Montserrat", sans-serif;
+	color: #bdbdbd;
+}
 
- h2 {
-  text-transform: uppercase;
-   
- }
+h2 {
+	text-transform: uppercase;
+}
 .App {
-  padding-inline: 1.5rem;
-  min-height: 90vh;
+	padding-inline: 1.5rem;
+	min-height: 90vh;
 }
 .container {
-  min-height: 70vh;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));  
-  
-  align-content: center;
-  
-  gap: 4rem;
-}
- 
+	min-height: 70vh;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 
-.article { 
-  max-width: 450px;
+	align-content: center;
+
+	gap: 4rem;
+}
+
+picture {
+	width: 70%;
+	min-width: 23rem;
+
+	margin-top: 2rem;
+}
+
+.article {
+	max-width: 450px;
 }
 .article_title {
-  font-size: 3rem;
-  font-weight: bold
+	font-size: 3rem;
+	font-weight: bold;
 }
 
 .article_paragraph {
-  font-size: 1.2rem;
-  line-height: 1.8;
+	font-size: 1.2rem;
+	line-height: 1.8;
 }
 
 .article_button {
-  color: white;
-  background-color: #333;
-  border-radius: 0;
-  padding: 1em 2em;
-  
-  margin-top: 40px;
-  text-transform: uppercase;
+	color: white;
+	background-color: #333;
+	border-radius: 0;
+	padding: 1em 2em;
+
+	margin-top: 40px;
+	text-transform: uppercase;
+}
+footer {
+	margin-top: 4rem;
 }
