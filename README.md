@@ -1,18 +1,20 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">{Your project name}</h1>
+<style>
+  .pictures {
+    
+  }
+</style>
+
+<h1 align="center">{404 page}</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
 </div>
 
 <div align="center">
-  <h3>
-    <a href="https://{your-demo-link.your-domain}">
-      Demo
-    </a>
-    <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+  <h3> 
+    <a href="https://github.com/David-Main/-404-page-">
       Solution
     </a>
     <span> | </span>
@@ -29,31 +31,48 @@
 - [Overview](#overview)
   - [Built With](#built-with)
 - [Features](#features)
-- [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
 
 <!-- OVERVIEW -->
 
 ## Overview
 
-![screenshot](./public/finished%20page.png)
-![screenshot](./public/404%20finished%20page%20--%20mobile.png)
+<div class="pictures">
+
+![screenshot](./public/404%20large%20screen.png) ![screenshot](./public/404%20mobile%20shot.png)
+
+</div>
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your
 project by answering:
 
-- Where can I see your demo?
-- What was your experience?
-- What have you learned/improved?
-- Your wisdom? :)
+**Where can I see your demo?**
+
+it is coming out soon... stay tuned for that
+
+**What was My experience?**
+
+Short and simple. This project took me less thatn an hour to build and the fact that i didnt need to
+use media queries here means a lot to me since my knowledge in css grids have really been a drag
+hitherto this challenge.
+
+**What I have learned/improved?**
+
+I have come to believe the best way to solve a layout problem is to start with mobile and then work
+your way up from there.
+
+here's a Pro tip: by default, the content placed in browsers are responsive... text and images( when
+they have a max width set to 100%) so in order to ease your development process, try to set the
+least amount of rules you can while still achieving the layout you want... 🤭 Trust me, its harder
+than it sounds.
+
+Also, I have gained a deeper understanding of grids and how they can be used to really bring life to
+layouts in html with ease.
 
 ### Built With
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
-- [React](https://reactjs.org/)
-- [Vue.js](https://vuejs.org/)
-- [Tailwind](https://tailwindcss.com/)
+- [Reactjs with Vitejs](https://vitejs.dev)
 
 ## Features
 
@@ -64,16 +83,10 @@ This application/site was created as a submission to a
 [challenge](https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY) was to build an application to
 complete the given user stories.
 
-## Acknowledgements
+---
 
-<!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For exmpale -->
+The app runs fully responsive without the use of media queries all with the use of grids
 
-- [Steps to replicate a design with only HTML and CSS](https://devchallenges-blogs.web.app/how-to-replicate-design/)
-- [Node.js](https://nodejs.org/)
-- [Marked - a markdown parser](https://github.com/chjj/marked)
+- See the source code to learn more how this works
 
-## Contact
-
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/your-usermame})
-- Twitter [@your-twitter](https://{twitter.com/your-username})
+---
