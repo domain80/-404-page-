@@ -42,9 +42,6 @@
 
 </div>
 
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a
-story about your project by answering:
-
 **Where can I see your demo?** https://1jack80-404.netlify.app
 
 **What was My experience?** Short and simple. This project took me less thatn an
